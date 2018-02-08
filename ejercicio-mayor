@@ -1,0 +1,17 @@
+# coding: utf8
+# Adrià Salvadó
+# data de cración 08/02/18
+valor1=input ("Introduce el primer número ")
+valor2=input ("Introduce el segundo número ")
+
+
+
+
+if (valor1>valor2):
+    print "valor1 es mas grande"
+      
+if (valor2>valor1):
+    print "valor2 es mas grande"
+
+if valor1==valor2 :
+	print "son iguales"
