@@ -13,5 +13,5 @@ if (valor1>valor2):
 if (valor2>valor1):
     print "valor2 es mas grande"
 
-if valor1==valor2 :
+if (valor1==valor2) :
 	print "son iguales"
