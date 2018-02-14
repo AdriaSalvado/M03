@@ -10,7 +10,7 @@ if (divisor==0):
 	print "No se puede dividir entre 0"
 
 else:
-    if(resto==0):
+    if(dividendo%divisor==0):
 		print "La division es exacta. Cociente:" , dividendo/divisor 
 
     else: 
