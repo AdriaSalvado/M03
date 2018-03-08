@@ -1,14 +1,22 @@
 # coding: utf8
+# Adrià Salvadó
 # Inicializaciones
+
 salir = "N"
-numero=1
+inicio=1
+final=input("Introduce el numero final: ")
+suma=0
+
+if(final<=0):
+	print "Error no puede ser cero"
 
 while ( salir=="N" ):
     # Hago cosas
-    print 
+    print inicio
 
     # Incremento
-    numero = numero +1 
+    suma=inicio + suma
+    inicio=suma+1
     # Activo indicador de salida si toca
-    if ( numero > 5 ): # Condición de salida
+    if ( suma > final ): # Condición de salida
             salir = "S"
