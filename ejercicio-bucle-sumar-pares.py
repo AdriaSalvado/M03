@@ -8,7 +8,8 @@ resultado=0
 
 while ( salir=="N" ):
     # Hago cosas
-    print resultado
+    if(resultado%2==0):
+		print resultado
 
     # Incremento
     resultado=resultado + suma
