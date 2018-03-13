@@ -1,19 +1,20 @@
 # coding: utf8
-# Adrià Salvadó
 # Inicializaciones
-
 salir = "N"
-suma=1
-resultado=0
-
+numero=1
+maximo=5
+suma=0
 while ( salir=="N" ):
     # Hago cosas
-    if(resultado%2==0):
-		print resultado
-
+    if(numero%2==0):
+        print numero ,
+        if(numero<=maximo-2):
+		    print "+" ,
+	
+        suma=suma+numero
     # Incremento
-    resultado=resultado + suma
-    suma=suma+1
+    numero=numero+1
     # Activo indicador de salida si toca
-    if ( resultado > 15): # Condición de salida
+    if ( numero > maximo ): # Condición de salida
             salir = "S"
+print "=" , suma 
